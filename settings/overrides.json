@@ -1,0 +1,17 @@
+{
+  "@jupyterlab/apputils-extension:themes": {
+    "theme": "JupyterLab Light"
+  },
+  "@jupyterlab/docmanager-extension:plugin": {
+    "defaultViewers": {
+      "markdown": "Markdown Preview"
+    }
+  },
+  "@jupyterlab/notebook-extension:tracker": {
+    "showLineNumbers": true
+  },
+  "@jupyter-notebook/interface-extension:plugin": {
+    "showTopBar": false,
+    "showMenuBar": true
+  }
+}
