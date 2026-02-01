@@ -121,6 +121,21 @@ footer p {
     font-size: 0.9rem;
 }
 
+.footer-links {
+    margin: 15px 0;
+}
+
+.footer-links a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 600px) {
     header h1 {
         font-size: 2rem;
