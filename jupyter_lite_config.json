@@ -1,6 +1,13 @@
 {
   "LiteBuildConfig": {
-    "contents": ["content"],
-    "output_dir": "_output"
+    "contents": ["."],
+    "ignore_contents": [
+      ".jupyterlite.doit.db",
+      "node_modules",
+      "venv",
+      ".git",
+      "_output",
+      ".github"
+    ]
   }
 }
