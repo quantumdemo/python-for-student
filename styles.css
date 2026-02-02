@@ -143,6 +143,19 @@ header p {
     flex-wrap: wrap;
 }
 
+.hero-links i, .footer-links i {
+    margin-right: 8px;
+}
+
+.fa-whatsapp {
+    color: #25D366; /* Standard WhatsApp Green */
+}
+
+/* In buttons and footer where we want it to be white or secondary color, we can override */
+.btn-secondary .fa-whatsapp, .footer-links a .fa-whatsapp {
+    color: inherit; /* Use the text color of the parent */
+}
+
 footer {
     background-color: #333;
     color: white;
